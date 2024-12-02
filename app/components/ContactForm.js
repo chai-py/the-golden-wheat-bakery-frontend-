@@ -248,7 +248,7 @@ export default function ContactForm() {
 
         {/* Contact Form Section */}
         <div className="w-full max-w-md p-6 bg-yellow-900 rounded-lg shadow-lg">
-          <img
+          <image
             src="/images/alvaro-serrano-hjwKMkehBco-unsplash.jpg"
             alt="Contact photo"
             className="w-full h-auto mb-4"

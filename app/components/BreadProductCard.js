@@ -4,7 +4,7 @@ export default function BreadProductCard() {
   return (
     <div className="max-w-sm mx-auto overflow-hidden border border-black rounded-lg shadow-lg bg-card-background">
       {/* {card image} */}
-      <img
+      <image
         className="object-cover w-full h-48"
         src="/images/baguette.jpg"
         alt="logo"

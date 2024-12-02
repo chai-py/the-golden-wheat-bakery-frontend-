@@ -1,4 +1,5 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -8,25 +9,32 @@ export default function Footer() {
           <h2 className="mb-4 text-lg font-bold">Connect With Us</h2>
           <ul className="space-y-4">
             <li className="flex items-center space-x-2">
-              <a href="https://x.com/">
-                {" "}
-                <i className="text-xl text-black transition-colors fab fa-x-twitter hover:text-gray-200"></i>
-              </a>
+              <Link href="https://x.com/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  <i className="text-xl text-black transition-colors fab fa-x-twitter hover:text-gray-200"></i>
+                </a>
+              </Link>
             </li>
             <li className="flex items-center space-x-2">
-              <a href="https://facebook.com/">
-                <i className="text-xl text-blue-600 transition-colors fab fa-facebook hover:text-blue-200"></i>
-              </a>
+              <Link href="https://facebook.com/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  <i className="text-xl text-blue-600 transition-colors fab fa-facebook hover:text-blue-200"></i>
+                </a>
+              </Link>
             </li>
             <li className="flex items-center space-x-2">
-              <a href="https://instagram.com/">
-                <i className="text-xl text-pink-600 transition-colors fab fa-instagram hover:text-pink-200"></i>
-              </a>
+              <Link href="https://instagram.com/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  <i className="text-xl text-pink-600 transition-colors fab fa-instagram hover:text-pink-200"></i>
+                </a>
+              </Link>
             </li>
             <li className="flex items-center space-x-2">
-              <a href="https://youtube.com/">
-                <i className="text-xl text-red-600 transition-colors fab fa-youtube hover:text-red-200"></i>
-              </a>
+              <Link href="https://youtube.com/" passHref>
+                <a target="_blank" rel="noopener noreferrer">
+                  <i className="text-xl text-red-600 transition-colors fab fa-youtube hover:text-red-200"></i>
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -34,24 +42,24 @@ export default function Footer() {
           <h2 className="mb-4 text-lg font-bold">Quick Links</h2>
           <ul className="space-y-4">
             <li>
-              <a href="/" className="hover:underline">
-                Home
-              </a>
+              <Link href="/" passHref>
+                <a className="hover:underline">Home</a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="hover:underline">
-                About
-              </a>
+              <Link href="/about" passHref>
+                <a className="hover:underline">About</a>
+              </Link>
             </li>
             <li>
-              <a href="/products" className="hover:underline">
-                Products
-              </a>
+              <Link href="/products" passHref>
+                <a className="hover:underline">Products</a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:underline">
-                Contact Us
-              </a>
+              <Link href="/contact" passHref>
+                <a className="hover:underline">Contact Us</a>
+              </Link>
             </li>
           </ul>
         </div>
