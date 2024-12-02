@@ -22,7 +22,7 @@ export default function IndividualProductPage({ params }) {
   async function fetchData() {
     try {
       const response = await fetch(
-        `https://golden-wheat-backend-ocs3ziby4-aashitas-projects-5cef0c8d.vercel.app/products/${id}`
+        `https://the-golden-wheat-bakery-main.onrender.com/products/${id}`
       );
       const data = await response.json();
       setProduct(data);

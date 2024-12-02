@@ -61,7 +61,7 @@ export default function CardCarousel() {
   // useEffect (() => {
   //   async function fetchImage() {
   //     try {
-  //       const response = await fetch("https://golden-wheat-backend-ocs3ziby4-aashitas-projects-5cef0c8d.vercel.app/products");
+  //       const response = await fetch("https://the-golden-wheat-bakery-main.onrender.com/products");
   //       const data = await response.json();
 
   //       setCardsImage(prevCards => prevCards.map((card, index) => ({

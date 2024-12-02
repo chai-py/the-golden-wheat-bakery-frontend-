@@ -12,7 +12,7 @@ export default function GroupCards() {
   const fetchProducts = async () => {
     try {
       const endpoint =
-        "https://golden-wheat-backend-ocs3ziby4-aashitas-projects-5cef0c8d.vercel.app/products/";
+        "https://the-golden-wheat-bakery-main.onrender.com/products/";
       const response = await fetch(endpoint);
 
       if (!response.ok) {

@@ -94,7 +94,7 @@ export default function RegistrationForm() {
       e.preventDefault();
       validateForm();
       const response = await fetch(
-        "https://golden-wheat-backend-ocs3ziby4-aashitas-projects-5cef0c8d.vercel.app/user/login",
+        "https://the-golden-wheat-bakery-main.onrender.com/user/login",
         {
           method: "POST",
           body: JSON.stringify({
